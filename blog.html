@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE JOURNAL ⚡ Artikel & Hacks Kesehatan | Sedjahe</title>
+    
+    <meta name="description" content="Kumpulan hacks kesehatan, fakta rempah nusantara, dan tips hindari sugar crash. Edukasi gaya hidup sehat buat Gen Z persembahan Sedjahe.">
+    <meta name="keywords" content="blog kesehatan gen z, artikel herbal kekinian, manfaat jamu, gaya hidup sehat, anti tipes club, sedjahe">
+    <meta name="author" content="Sedjahe">
+
+    <link rel="icon" type="image/png" href="assets/logo.png">
+
+    <!-- Open Graph (Vercel) -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sedjahe.vercel.app/blog.html">
+    <meta property="og:title" content="THE JOURNAL ⚡ Artikel & Hacks Kesehatan Sedjahe">
+    <meta property="og:description" content="Kumpulan hacks kesehatan, fakta rempah nusantara, dan tips hindari sugar crash buat lo.">
+    <meta property="og:image" content="https://sedjahe.vercel.app/assets/logo.png">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://sedjahe.vercel.app/blog.html">
+    <meta name="twitter:title" content="THE JOURNAL ⚡ Artikel & Hacks Kesehatan Sedjahe">
+    <meta name="twitter:description" content="Kumpulan hacks kesehatan, fakta rempah nusantara, dan tips hindari sugar crash buat lo.">
+    <meta name="twitter:image" content="https://sedjahe.vercel.app/assets/logo.png">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700;800&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Space Grotesk', 'sans-serif'], mono: ['Space Mono', 'monospace'] },
+                    colors: { acid: '#c4fc21', hyper: '#ff4d00', cyber: '#000000', paper: '#f4f4f0', },
+                    animation: { 'marquee': 'marquee 15s linear infinite', },
+                    keyframes: { marquee: { '0%': { transform: 'translateX(0%)' }, '100%': { transform: 'translateX(-100%)' }, } }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body { background-color: #f4f4f0; background-image: radial-gradient(#000 1px, transparent 1px); background-size: 24px 24px; }
+        .neo-border { border: 3px solid #000; }
+        .neo-shadow { box-shadow: 6px 6px 0px #000; transition: all 0.2s ease; }
+        .neo-shadow:hover { box-shadow: 2px 2px 0px #000; transform: translate(4px, 4px); }
+        .neo-shadow-static { box-shadow: 8px 8px 0px #000; }
+    </style>
+</head>
+<body class="text-cyber flex flex-col min-h-screen selection:bg-acid selection:text-cyber">
+
+    <!-- Header / Navigasi -->
+    <header class="bg-acid neo-border border-x-0 sticky top-0 z-40">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <a href="index.html" class="flex-shrink-0 flex items-center gap-3 group">
+                    <img src="assets/logo.png" alt="Logo" class="h-12 w-12 object-cover rounded-full neo-border bg-white neo-shadow">
+                    <span class="font-black text-3xl tracking-tighter uppercase italic">Sedjahe<span class="text-hyper">.</span></span>
+                </a>
+                <nav class="hidden md:flex space-x-8 font-bold text-lg uppercase tracking-wide">
+                    <a href="index.html" class="hover:text-hyper hover:-translate-y-1 transition-transform">Beranda</a>
+                    <a href="produk.html" class="hover:text-hyper hover:-translate-y-1 transition-transform">Katalog</a>
+                    <a href="tentang.html" class="hover:text-hyper hover:-translate-y-1 transition-transform">Our Story</a>
+                    <a href="blog.html" class="border-b-4 border-cyber pb-1">Journal</a>
+                </nav>
+                <div class="hidden md:flex items-center">
+                    <a href="https://wa.me/62895383156946" target="_blank" class="bg-white text-cyber neo-border neo-shadow px-6 py-2.5 font-black uppercase text-sm flex items-center gap-2 hover:bg-hyper hover:text-white transition-colors"><i class="fa-solid fa-bolt"></i> Order Now</a>
+                </div>
+                <div class="md:hidden flex items-center"><button id="mobile-menu-btn" class="bg-white p-2 neo-border neo-shadow text-cyber"><i class="fa-solid fa-bars text-xl"></i></button></div>
+            </div>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden bg-paper neo-border border-x-0 border-t-0 absolute w-full z-40">
+            <div class="p-6 flex flex-col space-y-4 font-black text-xl uppercase">
+                <a href="index.html" class="bg-white neo-border p-3 text-center hover:bg-acid">Beranda</a>
+                <a href="produk.html" class="bg-white neo-border p-3 text-center hover:bg-acid">Katalog</a>
+                <a href="tentang.html" class="bg-white neo-border p-3 text-center hover:bg-acid">Our Story</a>
+                <a href="blog.html" class="bg-acid neo-border neo-shadow p-3 text-center">Journal</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="flex-grow">
+        <section class="bg-paper py-16 lg:py-24 border-b-4 border-black overflow-hidden relative">
+            <div class="absolute -top-10 -right-10 text-[15rem] opacity-5"><i class="fa-solid fa-book-skull"></i></div>
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+                <div class="inline-block bg-hyper text-white font-mono text-sm font-bold px-4 py-1 neo-border mb-6 transform rotate-2">
+                    [ DATA_BANK_ACCESSED ]
+                </div>
+                <h1 class="text-5xl md:text-7xl font-black uppercase tracking-tighter mb-4" style="-webkit-text-stroke: 2px black; color: white;">
+                    The <span class="text-acid" style="-webkit-text-stroke: 0;">Journal</span>
+                </h1>
+                <p class="font-mono text-lg max-w-2xl mx-auto bg-white p-4 neo-border neo-shadow-static font-bold">
+                    Hacks kesehatan, mitos vs fakta herbal, dan panduan *survive* dari hustle culture tanpa ngorbanin ginjal lo.
+                </p>
+            </div>
+        </section>
+
+        <section class="py-20 bg-cyber">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    
+                    <!-- Artikel 1 -->
+                    <article class="bg-white neo-border neo-shadow p-6 flex flex-col cursor-pointer group hover:-translate-y-2 transition-transform" onclick="window.location.href='blog/manfaat-jahe.html'">
+                        <div class="h-48 bg-hyper neo-border mb-6 flex items-center justify-center relative overflow-hidden">
+                            <span class="absolute top-3 left-3 bg-cyber text-acid text-xs font-mono font-bold px-3 py-1 neo-border uppercase">Body Hacks</span>
+                            <i class="fa-solid fa-fire-flame-curved text-6xl text-white group-hover:scale-125 transition-transform duration-300"></i>
+                        </div>
+                        <div class="text-xs font-mono font-bold text-gray-500 mb-3 uppercase">> Log: 10_JUN_2026</div>
+                        <h3 class="text-2xl font-black uppercase mb-3 leading-tight group-hover:text-hyper transition-colors"><a href="blog/manfaat-jahe.html">7 Manfaat Ajaib Jahe Merah Buat Daily Buff (Anti Tipes)</a></h3>
+                        <p class="font-mono text-sm text-gray-600 mb-6 flex-grow">Gampang capek? Cek 7 rahasia jahe merah asli buat nge-boost imunitas tubuh lo. Investasi kesehatan dari sekarang.</p>
+                        <div class="w-full bg-cyber text-white text-center py-3 font-black uppercase neo-border group-hover:bg-acid group-hover:text-cyber transition-colors">Read Data <i class="fa-solid fa-arrow-right ml-2"></i></div>
+                    </article>
+
+                    <!-- Artikel 2 -->
+                    <article class="bg-white neo-border neo-shadow p-6 flex flex-col cursor-pointer group hover:-translate-y-2 transition-transform" onclick="window.location.href='blog/kenapa-herbal.html'">
+                        <div class="h-48 bg-acid neo-border mb-6 flex items-center justify-center relative overflow-hidden">
+                            <span class="absolute top-3 left-3 bg-cyber text-white text-xs font-mono font-bold px-3 py-1 neo-border uppercase">Mindset Check</span>
+                            <i class="fa-solid fa-skull-crossbones text-6xl text-cyber group-hover:scale-125 transition-transform duration-300"></i>
+                        </div>
+                        <div class="text-xs font-mono font-bold text-gray-500 mb-3 uppercase">> Log: 11_JUN_2026</div>
+                        <h3 class="text-2xl font-black uppercase mb-3 leading-tight group-hover:text-hyper transition-colors"><a href="blog/kenapa-herbal.html">Stop Minum Gula Berlebih! Kenapa Lo Harus Switch ke Herbal</a></h3>
+                        <p class="font-mono text-sm text-gray-600 mb-6 flex-grow">Sering sugar crash abis minum boba? Udah saatnya switch ke daily potion alami. Baca fakta pahit soal gula di sini.</p>
+                        <div class="w-full bg-cyber text-white text-center py-3 font-black uppercase neo-border group-hover:bg-hyper transition-colors">Read Data <i class="fa-solid fa-arrow-right ml-2"></i></div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-cyber text-white border-t-4 border-black pt-16 pb-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-12 mb-12 border-b-2 border-gray-800 pb-12">
+                <div class="col-span-1 md:col-span-5">
+                    <h2 class="text-6xl font-black uppercase italic tracking-tighter mb-4 text-acid">SEDJAHE.</h2>
+                    <p class="font-mono text-gray-400 mb-6 max-w-sm">Jamu 2.0. Minuman herbal tradisional dengan attitude. 100% lokal, 100% natural.</p>
+                </div>
+                <div class="col-span-1 md:col-span-3">
+                    <h4 class="font-black text-xl uppercase mb-6 border-b-2 border-hyper inline-block pb-1">Menu</h4>
+                    <ul class="space-y-4 font-mono font-bold">
+                        <li><a href="index.html" class="hover:text-acid transition-colors">> Beranda</a></li>
+                        <li><a href="produk.html" class="hover:text-acid transition-colors">> Katalog Produk</a></li>
+                        <li><a href="tentang.html" class="hover:text-acid transition-colors">> Our Story</a></li>
+                        <li><a href="blog.html" class="hover:text-acid transition-colors">> Journal</a></li>
+                    </ul>
+                </div>
+                <div class="col-span-1 md:col-span-4">
+                    <h4 class="font-black text-xl uppercase mb-6 border-b-2 border-acid inline-block pb-1">Hit Us Up</h4>
+                    <ul class="space-y-4 font-mono">
+                        <li class="flex items-start gap-3"><i class="fa-solid fa-location-dot mt-1 text-acid"></i> <span>HQ:<br>Jl. Kebayoran Baru, Jakarta Selatan</span></li>
+                        <li class="flex items-center gap-3"><i class="fa-brands fa-whatsapp text-hyper"></i> <a href="https://wa.me/62895383156946" target="_blank" class="hover:text-acid transition-colors font-bold">+62 895-3831-56946</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="flex flex-col md:flex-row justify-between items-center gap-4 font-mono text-xs text-gray-500 uppercase font-bold">
+                <p>&copy; 2026 SEDJAHE. NO FAKES ALLOWED.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('mobile-menu-btn').addEventListener('click', function() {
+            document.getElementById('mobile-menu').classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>

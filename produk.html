@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE STASH - Katalog Sedjahe</title>
+    
+    <meta name="description" content="Katalog lengkap ramuan Sedjahe. Jahe Merah, Beras Kencur, dan Wedang Uwuh. 100% natural potion buat daily buff lo.">
+    <meta name="keywords" content="produk sedjahe, beli jahe merah, jual beras kencur, wedang uwuh, katalog jamu gen z">
+    <meta name="author" content="Sedjahe">
+
+    <link rel="icon" type="image/png" href="assets/logo.png">
+
+    <!-- Open Graph (Vercel) -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sedjahe.vercel.app/produk.html">
+    <meta property="og:title" content="THE STASH - Katalog Sedjahe">
+    <meta property="og:description" content="Katalog lengkap ramuan Sedjahe. 100% natural potion buat daily buff lo.">
+    <meta property="og:image" content="https://sedjahe.vercel.app/assets/logo.png">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://sedjahe.vercel.app/produk.html">
+    <meta name="twitter:title" content="THE STASH - Katalog Sedjahe">
+    <meta name="twitter:description" content="Katalog lengkap ramuan Sedjahe. 100% natural potion buat daily buff lo.">
+    <meta name="twitter:image" content="https://sedjahe.vercel.app/assets/logo.png">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- FontAwesome & Google Fonts (Space Grotesk & Space Mono) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700;800&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { 
+                        sans: ['Space Grotesk', 'sans-serif'], 
+                        mono: ['Space Mono', 'monospace'] 
+                    },
+                    colors: {
+                        acid: '#c4fc21',    
+                        hyper: '#ff4d00',   
+                        cyber: '#000000',   
+                        paper: '#f4f4f0',   
+                    },
+                    animation: {
+                        'marquee': 'marquee 15s linear infinite',
+                    },
+                    keyframes: {
+                        marquee: {
+                            '0%': { transform: 'translateX(0%)' },
+                            '100%': { transform: 'translateX(-100%)' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Custom CSS for Neo-Brutalism -->
+    <style>
+        body {
+            background-color: #f4f4f0;
+            background-image: radial-gradient(#000000 1px, transparent 1px);
+            background-size: 24px 24px;
+        }
+        
+        .neo-border { border: 3px solid #000; }
+        .neo-border-b { border-bottom: 3px solid #000; }
+        .neo-shadow {
+            box-shadow: 6px 6px 0px #000;
+            transition: all 0.2s ease;
+        }
+        .neo-shadow:hover {
+            box-shadow: 2px 2px 0px #000;
+            transform: translate(4px, 4px);
+        }
+        .neo-shadow-static { box-shadow: 8px 8px 0px #000; }
+    </style>
+</head>
+<body class="text-cyber flex flex-col min-h-screen selection:bg-hyper selection:text-white">
+
+    <!-- Y2K Top Bar Marquee -->
+    <div class="bg-cyber text-acid neo-border border-x-0 border-t-0 py-1 overflow-hidden relative z-50 flex whitespace-nowrap">
+        <div class="animate-marquee font-mono text-sm font-bold tracking-widest uppercase flex items-center">
+            <span class="mx-4">🔥 RESTOCK ALERT</span>
+            <span class="mx-4">🔥 LIMITED STASH</span>
+            <span class="mx-4">🔥 GRAB YOURS NOW</span>
+            <span class="mx-4">🔥 100% PURE INGREDIENTS</span>
+            <span class="mx-4">🔥 RESTOCK ALERT</span>
+            <span class="mx-4">🔥 LIMITED STASH</span>
+            <span class="mx-4">🔥 GRAB YOURS NOW</span>
+            <span class="mx-4">🔥 100% PURE INGREDIENTS</span>
+        </div>
+        <div class="animate-marquee font-mono text-sm font-bold tracking-widest uppercase flex items-center absolute top-1 left-full">
+            <span class="mx-4">🔥 RESTOCK ALERT</span>
+            <span class="mx-4">🔥 LIMITED STASH</span>
+            <span class="mx-4">🔥 GRAB YOURS NOW</span>
+            <span class="mx-4">🔥 100% PURE INGREDIENTS</span>
+            <span class="mx-4">🔥 RESTOCK ALERT</span>
+            <span class="mx-4">🔥 LIMITED STASH</span>
+            <span class="mx-4">🔥 GRAB YOURS NOW</span>
+            <span class="mx-4">🔥 100% PURE INGREDIENTS</span>
+        </div>
+    </div>
+
+    <!-- Header / Navigasi -->
+    <header class="bg-acid neo-border border-x-0 sticky top-0 z-40">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <a href="index.html" class="flex-shrink-0 flex items-center gap-3 group">
+                    <img src="assets/logo.png" alt="Logo" class="h-12 w-12 object-cover rounded-full neo-border bg-white neo-shadow">
+                    <span class="font-black text-3xl tracking-tighter uppercase italic">Sedjahe<span class="text-hyper">.</span></span>
+                </a>
+                
+                <nav class="hidden md:flex space-x-8 font-bold text-lg uppercase tracking-wide">
+                    <a href="index.html" class="hover:text-hyper hover:-translate-y-1 transition-transform">Beranda</a>
+                    <a href="produk.html" class="border-b-4 border-cyber pb-1">Katalog</a>
+                    <a href="tentang.html" class="hover:text-hyper hover:-translate-y-1 transition-transform">Our Story</a>
+                    <a href="blog.html" class="hover:text-hyper hover:-translate-y-1 transition-transform">Journal</a>
+                </nav>
+
+                <div class="hidden md:flex items-center">
+                    <a href="https://wa.me/62895383156946" target="_blank" class="bg-white text-cyber neo-border neo-shadow px-6 py-2.5 font-black uppercase text-sm flex items-center gap-2 hover:bg-hyper hover:text-white transition-colors">
+                        <i class="fa-solid fa-bolt"></i> Order Now
+                    </a>
+                </div>
+
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="bg-white p-2 neo-border neo-shadow text-cyber">
+                        <i class="fa-solid fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="mobile-menu" class="hidden md:hidden bg-paper neo-border border-x-0 border-t-0 absolute w-full z-40">
+            <div class="p-6 flex flex-col space-y-4 font-black text-xl uppercase">
+                <a href="index.html" class="bg-white neo-border p-3 text-center hover:bg-acid">Beranda</a>
+                <a href="produk.html" class="bg-acid neo-border neo-shadow p-3 text-center">Katalog</a>
+                <a href="tentang.html" class="bg-white neo-border p-3 text-center hover:bg-acid">Our Story</a>
+                <a href="blog.html" class="bg-white neo-border p-3 text-center hover:bg-acid">Journal</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="flex-grow">
+        
+        <!-- Header Halaman -->
+        <section class="bg-paper py-16 lg:py-24 border-b-4 border-black overflow-hidden relative">
+            <div class="absolute -top-20 -right-20 text-[20rem] opacity-5"><i class="fa-solid fa-box-open"></i></div>
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+                <div class="inline-block bg-cyber text-white font-mono text-sm px-4 py-1 neo-border mb-6 transform -rotate-2">
+                    [ INVENTORY_OPEN ]
+                </div>
+                <h1 class="text-5xl md:text-7xl font-black uppercase tracking-tighter mb-4" style="-webkit-text-stroke: 2px black; color: white;">
+                    Potion <span class="text-hyper" style="-webkit-text-stroke: 0;">Stash</span>
+                </h1>
+                <p class="font-mono text-lg max-w-2xl mx-auto bg-white p-4 neo-border neo-shadow-static">
+                    Pilih senjata rahasia lo. Dibuat 100% dari rimpang pilihan buat balikin HP (Health Points) badan lo ke max.
+                </p>
+            </div>
+        </section>
+
+        <!-- Daftar Produk -->
+        <section class="py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                    
+                    <!-- PRODUK 1: JAHE MERAH -->
+                    <div class="bg-paper neo-border neo-shadow flex flex-col group overflow-hidden">
+                        <div class="border-b-3 border-black pb-4 mb-4 flex justify-between items-center p-6 pb-0">
+                            <span class="bg-hyper text-white px-3 py-1 font-mono text-xs font-bold uppercase neo-border">HOT 🔥</span>
+                            <span class="font-black text-2xl">Rp25k</span>
+                        </div>
+                        
+                        <!-- Area Foto Asli -->
+                        <div class="h-72 w-full bg-white neo-border-b relative overflow-hidden">
+                            <!-- PASTIKAN NAMA FILE INI SAMA DENGAN NAMA FILE DI FOLDER ASSETS ANDA -->
+                            <img src="assets/jahe-merah.png" alt="Jahe Merah Original" class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500">
+                        </div>
+                        
+                        <div class="p-6 flex flex-col flex-grow">
+                            <h3 class="text-3xl font-black uppercase mb-2">Jahe Merah</h3>
+                            <div class="flex gap-2 mb-4">
+                                <span class="bg-acid px-2 py-1 text-xs font-mono font-bold neo-border">Serbuk Instan</span>
+                                <span class="bg-white px-2 py-1 text-xs font-mono font-bold neo-border">100g</span>
+                            </div>
+                            <p class="font-mono text-sm text-gray-600 mb-8 flex-grow">Serbuk jahe merah murni dengan paduan gula aren alami. Sangat praktis, cukup seduh dengan air hangat. Meredakan masuk angin seketika.</p>
+                            
+                            <a href="https://wa.me/62895383156946?text=Halo%20Sedjahe,%20gue%20mau%20order%20Jahe%20Merah%20Original%20nih." target="_blank" class="w-full bg-cyber text-white text-center py-4 font-black uppercase text-lg neo-border hover:bg-hyper transition-colors transform group-hover:-translate-y-1">
+                                COP THIS <i class="fa-solid fa-cart-shopping ml-2"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- PRODUK 2: BERAS KENCUR -->
+                    <div class="bg-paper neo-border neo-shadow flex flex-col group overflow-hidden">
+                        <div class="border-b-3 border-black pb-4 mb-4 flex justify-between items-center p-6 pb-0">
+                            <span class="bg-acid text-cyber px-3 py-1 font-mono text-xs font-bold uppercase neo-border">FRESH 🌿</span>
+                            <span class="font-black text-2xl">Rp20k</span>
+                        </div>
+                        
+                        <!-- Area Foto Asli -->
+                        <div class="h-72 w-full bg-white neo-border-b relative overflow-hidden">
+                            <!-- PASTIKAN NAMA FILE INI SAMA DENGAN NAMA FILE DI FOLDER ASSETS ANDA -->
+                            <img src="assets/beras-kencur.png" alt="Beras Kencur" class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500">
+                        </div>
+                        
+                        <div class="p-6 flex flex-col flex-grow">
+                            <h3 class="text-3xl font-black uppercase mb-2">Beras Kencur</h3>
+                            <div class="flex gap-2 mb-4">
+                                <span class="bg-white px-2 py-1 text-xs font-mono font-bold neo-border">Serbuk Instan</span>
+                                <span class="bg-white px-2 py-1 text-xs font-mono font-bold neo-border">200g</span>
+                            </div>
+                            <p class="font-mono text-sm text-gray-600 mb-8 flex-grow">Perpaduan sempurna beras pilihan dan kencur segar. Ultimate stamina potion buat ngilangin pegal linu abis push rank seharian.</p>
+                            
+                            <a href="https://wa.me/62895383156946?text=Halo%20Sedjahe,%20gue%20mau%20order%20Beras%20Kencur%20nih." target="_blank" class="w-full bg-cyber text-white text-center py-4 font-black uppercase text-lg neo-border hover:bg-acid hover:text-cyber transition-colors transform group-hover:-translate-y-1">
+                                COP THIS <i class="fa-solid fa-cart-shopping ml-2"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- PRODUK 3: WEDANG UWUH -->
+                    <div class="bg-paper neo-border neo-shadow flex flex-col group overflow-hidden">
+                        <div class="border-b-3 border-black pb-4 mb-4 flex justify-between items-center p-6 pb-0">
+                            <span class="bg-white text-cyber px-3 py-1 font-mono text-xs font-bold uppercase neo-border">RESTOCK 📦</span>
+                            <span class="font-black text-2xl">Rp25k</span>
+                        </div>
+                        
+                        <!-- Area Foto Asli -->
+                        <div class="h-72 w-full bg-white neo-border-b relative overflow-hidden">
+                            <!-- PASTIKAN NAMA FILE INI SAMA DENGAN NAMA FILE DI FOLDER ASSETS ANDA -->
+                            <img src="assets/wedang-uwuh.png" alt="Wedang Uwuh" class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500">
+                        </div>
+                        
+                        <div class="p-6 flex flex-col flex-grow">
+                            <h3 class="text-3xl font-black uppercase mb-2">Wedang Uwuh</h3>
+                            <div class="flex gap-2 mb-4">
+                                <span class="bg-white px-2 py-1 text-xs font-mono font-bold neo-border">Rempah Utuh</span>
+                                <span class="bg-white px-2 py-1 text-xs font-mono font-bold neo-border">100g</span>
+                            </div>
+                            <p class="font-mono text-sm text-gray-600 mb-8 flex-grow">Hangat di badan, sehat setiap hari. Ramuan tradisional keraton dari rempah pilihan Nusantara. Solusi jitu usir flu dan masuk angin.</p>
+                            
+                            <a href="https://wa.me/62895383156946?text=Halo%20Sedjahe,%20gue%20mau%20order%20Wedang%20Uwuh%20nih." target="_blank" class="w-full bg-cyber text-white text-center py-4 font-black uppercase text-lg neo-border hover:bg-white hover:text-cyber transition-colors transform group-hover:-translate-y-1">
+                                COP THIS <i class="fa-solid fa-cart-shopping ml-2"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Info Tambahan / Drop Details -->
+                <div class="mt-20 bg-acid p-8 lg:p-12 neo-border neo-shadow-static flex flex-col md:flex-row items-center justify-between gap-10">
+                    <div class="flex items-start gap-6">
+                        <div class="w-16 h-16 bg-white neo-border flex items-center justify-center text-cyber shrink-0 transform -rotate-6">
+                            <i class="fa-solid fa-truck-fast text-2xl"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-black text-2xl uppercase mb-2">Safe Delivery</h4>
+                            <p class="font-mono text-sm text-cyber">Packing aman, no damage. Melayani pengiriman ke seluruh *safe zone* di Indonesia.</p>
+                        </div>
+                    </div>
+                    <div class="hidden md:block w-1 h-20 bg-cyber"></div>
+                    <div class="flex items-start gap-6">
+                        <div class="w-16 h-16 bg-white neo-border flex items-center justify-center text-hyper shrink-0 transform rotate-6">
+                            <i class="fa-solid fa-boxes-stacked text-2xl"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-black text-2xl uppercase mb-2">Bulk Orders / Grosir</h4>
+                            <p class="font-mono text-sm text-cyber">Mau jadi reseller atau butuh buat event? Hit us up buat harga spesial.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Brutalist -->
+    <footer class="bg-cyber text-white border-t-4 border-black pt-16 pb-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-12 mb-12 border-b-2 border-gray-800 pb-12">
+                <div class="col-span-1 md:col-span-5">
+                    <h2 class="text-6xl font-black uppercase italic tracking-tighter mb-4 text-acid">SEDJAHE.</h2>
+                    <p class="font-mono text-gray-400 mb-6 max-w-sm">Jamu 2.0. Minuman herbal tradisional dengan attitude. 100% lokal, 100% natural.</p>
+                    <div class="flex gap-4">
+                        <a href="#" class="w-12 h-12 bg-white text-cyber flex items-center justify-center text-xl neo-border hover:bg-hyper hover:text-white transition-colors"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="w-12 h-12 bg-white text-cyber flex items-center justify-center text-xl neo-border hover:bg-acid transition-colors"><i class="fa-brands fa-tiktok"></i></a>
+                    </div>
+                </div>
+                
+                <div class="col-span-1 md:col-span-3">
+                    <h4 class="font-black text-xl uppercase mb-6 border-b-2 border-hyper inline-block pb-1">Menu</h4>
+                    <ul class="space-y-4 font-mono font-bold">
+                        <li><a href="index.html" class="hover:text-acid transition-colors">> Beranda</a></li>
+                        <li><a href="produk.html" class="hover:text-acid transition-colors">> Katalog Produk</a></li>
+                        <li><a href="tentang.html" class="hover:text-acid transition-colors">> Tentang Kami</a></li>
+                        <li><a href="blog.html" class="hover:text-acid transition-colors">> Journal</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-span-1 md:col-span-4">
+                    <h4 class="font-black text-xl uppercase mb-6 border-b-2 border-acid inline-block pb-1">Hit Us Up</h4>
+                    <ul class="space-y-4 font-mono">
+                        <li class="flex items-start gap-3"><i class="fa-solid fa-location-dot mt-1 text-acid"></i> <span>HQ:<br>Jl. Kebayoran Baru, Jakarta Selatan</span></li>
+                        <li class="flex items-center gap-3"><i class="fa-brands fa-whatsapp text-hyper"></i> <a href="https://wa.me/62895383156946" target="_blank" class="hover:text-acid transition-colors font-bold">+62 895-3831-56946</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="flex flex-col md:flex-row justify-between items-center gap-4 font-mono text-xs text-gray-500 uppercase font-bold">
+                <p>&copy; 2026 SEDJAHE. NO FAKES ALLOWED.</p>
+                <p>CRAFTED WITH <i class="fa-solid fa-fire text-hyper mx-1"></i> IN INDONESIA</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('mobile-menu-btn').addEventListener('click', function() {
+            document.getElementById('mobile-menu').classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
